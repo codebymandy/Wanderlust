@@ -1,0 +1,141 @@
+ body{
+  
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+ 
+.container{
+   
+  flex: 1;
+}
+
+.navbar{
+
+   height: 5rem;
+   background-color: white;
+}
+
+.fa-regular{
+    
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+      
+   color:#111010
+}
+
+/* .f-info{
+
+    height:8rem;
+    text-align: center;
+    background-color: #ebebee;
+    display: wrap !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: space-evenly !important;
+
+}
+
+.f-info-link > a{
+
+   color: #222222;
+   text-decoration: none;
+  
+}  */
+
+
+footer {
+    width: 100%; /* Set a fixed width for the footer */
+    margin: 0 auto; /* Center the footer horizontally */
+    background-color: #ece6e6; /* Assuming you want a background color */
+    padding: 20px; /* Adjust as needed */
+  }
+  
+  .f-info {
+    text-align: center; /* Center the content within the footer */
+  }
+  
+  .f-info-link,
+  .f-info-social {
+    margin-top: 10px; /* Adjust as needed */
+    display: inline-block; /* Allow elements to wrap */
+  }
+  
+  .f-info-link a {
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  /* Additional styles for social icons */
+  .fa-brands {
+    font-size: 24px;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+ /* card */
+
+ .card{
+       
+  border:2px solid black;
+  
+
+
+ }
+ .card-img-top{
+
+    border-radius: 1rem;
+    width: 100% !important;
+    
+ 
+  
+   object-fit: cover !important ;
+ } 
+
+ .card-body{
+   padding: 0 !important;
+ }
+
+ .card-text p{
+      
+    font-weight: 5rem !important;
+ }
+
+ .listing-link{
+
+  text-decoration: none;
+
+ }
+
+ .card-img-overly{
+
+    opacity: 0;
+ }
+
+ .card-img-overly :hover  {
+   
+    opacity: 0.2;
+    background-color: white;
+ }
+
+
+ .ls-img{
+
+      height: 30vh;
+ }
+
+ .btns{
+   
+   display: flex;
+ }
+
+ /* map */
+
+ #map 
+ {  height: 400px;
+    width: 80vh;
+
+  }

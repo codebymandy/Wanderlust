@@ -1,0 +1,56 @@
+
+<%layout("/layouts/boilerplate") %>
+
+  
+
+    <div class="row offset-2 mt-2">
+
+        <div class="col-8">
+
+    <h3>Edit your listing</h3>
+
+    <form method="post" action="/listings/<%=editlisting._id%>/?_method=PUT " class="needs-validation" novalidate enctype="multipart/form-data">
+
+        <div  class="mb-3">
+
+            <label for="title" class="form-label">title</label>
+            <input type="text" class="form-control" name="editlisting[title]" value="<%=editlisting.title%>" placeholder="Enter title" required>
+        </div>
+       
+        <div class="mb-3">
+
+            <label for="description" class="form-label">Description</label>
+            <textarea name="editlisting[description]" class="form-control" value="<%=editlisting.description%>" placeholder="enter description"></textarea>
+           
+        </div>
+        
+        <div class="mb-3">
+
+            <label for="image" class="form-label">upload the image</label>
+            <input type="file" class="form-control" name="editlisting[image]" placeholder="Enter image URL/link" required>
+            
+        </div>
+        
+     
+         <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" class="form-control" name="editlisting[price]" value="<%=editlisting.price%>" placeholder="Enter price" required>
+         </div>
+      
+      
+          <div>
+            <label for="country" class="form-label">country</label>
+            <input type="text" class="form-control" name="editlisting[country]" value="<%=editlisting.country%>" placeholder="Enter country" required>
+          </div>
+
+          <div class="mb-3">
+              <label for="location" class="form-label">Location</label>
+              <input type="text" class="form-control" name="editlisting[location]" value="<%=editlisting.location%>" placeholder="Enter location" required>
+
+          </div>
+       
+        
+        <button class="btn btn-dark">Edit</button>
+    </form>
+</div>
+</div>
