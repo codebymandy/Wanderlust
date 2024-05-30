@@ -1,1 +1,2 @@
-# Wanderlust is a Node.js application inspired by Airbnb.
+# Wanderlust 
+Wanderlust is a Node.js application inspired by Airbnb.
