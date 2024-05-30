@@ -4,7 +4,9 @@ Wanderlust is a Node.js application inspired by Airbnb.
 # Features
 
 . User authentication and authorizatio
+<br>
 . Search functionality with filters (location)
+<br>
 . Reviews and ratings for properties
 
 # Technologies Used
